@@ -1,10 +1,18 @@
+
 import './App.css';
-import D3Chart from './components/SimpleBarChart';
+import MyBarChart from './components/BarChart';
+import ForceDirectedGraph from './components/ForceDirectedGraph';
+ import InteractiveBarChart from './components/InteractiveBarChart';
+import LineChart from './components/LineChart';
+
 
 function App() {
   return (
     <div>
-      <D3Chart />
+      <MyBarChart/>
+      <InteractiveBarChart/>
+      <LineChart/>
+      <ForceDirectedGraph/>
     </div>
   );
 }
